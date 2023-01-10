@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Multi-step form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="./index.js"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+  </style>
+</head>
+
+<body>
+  <main>
+  <div class="container">
+    <!-- Sidebar start -->
+    <sidebar class="sidebar">
+
+      <div class="sidebar__step">
+        <h4 class="sidebar__stepnumber">1</h4>
+        <div class="sidebar__stepdesc">
+          <text>Step 1</text>
+          <h4>Your info</h4>
+        </div>
+
+      </div>
+      <div class="sidebar__step">
+        <h4 class="sidebar__stepnumber">2</h4>
+        <div class="sidebar__stepdesc">
+          <div>Step 2</div>
+          <h4>Select plan</h4>
+        </div>
+      </div>
+      <div class="sidebar__step">
+        <h4 class="sidebar__stepnumber">3</h4>
+        <div class="sidebar__stepdesc">
+          <div>Step 3</div>
+          <h4>Add-ons</h4>
+        </div>
+      </div>
+      <div class="sidebar__step">
+        <h4 class="sidebar__stepnumber">4</h4>
+        <div class="sidebar__stepdesc">
+          <div>Step 4</div>
+          <h4>Summary</h4>
+        </div>
+      </div>
+
+    </sidebar>
+
+    <!-- Sidebar end -->
+    <div>
+      <!-- Step 1 start -->
+
+      <section class="section" id="section1">
+
+        <div class="section__h2">
+          <h2>Personal info</h2>
+          <p class="section__paragraph">Please provide your name, email address, and phone number.</p>
+        </div>
+        <div>
+        <label>Name</label>
+
+        <input name="user" placeholder="e.g. Stephen King" />
+      </div>
+        <div>
+        <label>Email Address</label>
+        <input name="email" placeholder="e.g. stephenking@lorem.com">
+       </div>
+
+        <div>
+        <label>Phone Number</label>
+        <input name="number" placeholder="e.g. +1 234 567 890">
+      </div>
+
+
+        <div class="section__btnContainer">
+          <div class="section__btnContainers">
+            <div class="section__btn">Next Step</div>
+          <div class="section__backbtn">Go back</div>
+          
+        </div>
+        </div>
+
+      </section>
+
+      <!-- Step 1 end -->
+
+      <!-- Step 2 start -->
+      <section class="section" id="section2">
+
+        Select your plan
+        You have the option of monthly or yearly billing.
+
+        Arcade
+        $9/mo
+
+        Advanced
+        $12/mo
+
+        Pro
+        $15/mo
+
+        Monthly
+        Yearly
+
+        Go Back
+        Next Step
+
+      </section>
+
+      <!-- Step 2 end -->
+
+      <!-- Step 3 start -->
+      <section class="section" id="section3">
+
+        Pick add-ons
+        Add-ons help enhance your gaming experience.
+
+        Online service
+        Access to multiplayer games
+        +$1/mo
+
+        Larger storage
+        Extra 1TB of cloud save
+        +$2/mo
+
+        Customizable Profile
+        Custom theme on your profile
+        +$2/mo
+
+        Go Back
+        Next Step
+
+      </section>
+
+      <!-- Step 3 end -->
+
+      <!-- Step 4 start -->
+
+      <section class="section" id="section4">
+
+        Finishing up
+        Double-check everything looks OK before confirming.
+
+        <!-- Dynamically add subscription and add-on selections here -->
+
+        Total (per month/year)
+
+        Go Back
+        Confirm
+      </section>
+
+      <!-- Step 4 end -->
+
+      <!-- Step 5 start -->
+      <section class="section" id="section5">
+
+        Thank you!
+
+        Thanks for confirming your subscription! We hope you have fun
+        using our platform. If you ever need support, please feel free
+        to email us at support@loremgaming.com.
+
+      </section>
+
+      <!-- Step 5 end -->
+    </div>
+
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Gopal</a>.
+  </div>
+</main>
+</body>
+
+</html>
